@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" href="C:\Users\Soufiane\Desktop\WebDev\TP1\res\images\Favicon.ico">
+    <title>My Dashboard</title>
+</head>
+    <header>
+            <strong>Welcome to your dashboard!</strong> 
+    </header>
+
+    <section>
+        <div>
+            <img src="C:\Users\Soufiane\Desktop\WebDev\TP1\res\images\me.png" width="128" height="128" alt="My picture">
+        </div>
+        <div>
+            <ul>
+                <li>Your name</li> 
+                <li> A date following this format dd/mm/yyyy</li> 
+                <li> Software Engineering </li>
+            </ul>
+        </div>
+        <div>
+            <strong>2.65</strong>
+        </div>
+
+    </section>
+
+
+    <section>
+        <h1>Courses</h1>
+        <table>
+            <thead>
+                <tr>
+                    <th>#</th>
+                    <th>Course Title</th>
+                    <th>Semester</th>
+                    <th>Grade</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>1</td>
+                    <td><a href="https://www.udacity.com/course/agile-software-development-nanodegree--nd144">Agile software development</a></td>
+                    <td>fall</td>
+                    <td>82</td>
+                </tr>
+                <tr>
+                    <td>2</td>
+                    <td> <a href="https://www.open.edu/openlearn/science-maths-technology/systems-modelling/content-section-0?active-tab=description-tab">Systems modelling</a> </td>
+                    <td>fall</td>
+                    <td>85</td>
+                </tr>
+                <tr>
+                    <td>3</td>
+                    <td> <a href="https://www.udemy.com/course/requirements_engineering/?srsltid=AfmBOooS3wnuZpe58uBnAsNdo79dwlI5RPiKX-gi17aeK5SX1Uy3X1gZ&couponCode=CMCPSALE24">Requirements Engineering </a> </td>
+                    <td>fall</td>
+                    <td>99</td>
+                </tr>
+                <tr>
+                    <td>4</td>
+                    <td> <a href="https://www.interaction-design.org/courses/hci-foundations-of-ux-design?srsltid=AfmBOoos8zFJWREcFahH5rbdHfwmhWLpVSSp7Cl5Bq0sKN0-kAEHcx6R">Human Computer Interaction </a></td>
+                    <td>fall</td>
+                    <td>65</td>
+                </tr>
+            </tbody>
+            <tfoot>
+                <tr>
+                    <td>-</td>
+                    <td> - </td>
+                    <td>-</td>
+                    <td>- </td>
+                </tr>
+            </tfoot>
+        </table>
+    </section>
+
+    <form >
+        <h2>Add new courses: </h2>
+        <label for="Course">Course:</label><br>
+        <input type="text" id = "Course"  name= "course-title"><br>
+        <label for="Semester">Semester:</label><br>
+        <select name="Semester" id="Semester">
+            <option value="fall">Fall</option>
+            <option value="spring">Spring</option>
+        </select><br>
+        <label for="attendence">Attendence:</label><br>
+        <input type="radio" id = "virtual" name = "attendence" value = "virtual">
+        <label for="virtual">Virtual attendence</label><br>
+        <input type="radio" id = "physical" name = "attendence" value = "physical">
+        <label for="physical">Physical attendence</label><br>
+        <input type="submit" value="submit">
+    </form>
+
+
+
+    <footer>
+        <ul>
+            <li><a href="https://www.inpt.ac.ma/" target="_blank">moodle</a></li>
+            <li><a href="https://m.inpt.ac.ma" target="_blank">Courses</a></li>
+        </ul>
+    </footer>
+
+
+
+<body>
+    
+</body>
+</html>
